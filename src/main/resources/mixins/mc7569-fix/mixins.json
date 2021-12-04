@@ -1,0 +1,10 @@
+{
+  "minVersion": "0.8",
+  "compatibilityLevel": "JAVA_17",
+  "required": true,
+  "package": "dev.sapphic.mc7569",
+  "mixins": [
+    "RconConsoleSourceMixin"
+  ],
+  "refmap": "mixins/mc7569-fix/refmap.json"
+}

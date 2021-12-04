@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "mc7569-fix",
+  "name": "MC-7569 Fix",
+  "version": "$version",
+  "description": "Fixes https://bugs.mojang.com/browse/MC-7569",
+  "license": "Apache-2.0",
+  "depends": {
+    "fabricloader": ">=0.12.8",
+    "minecraft": ">=1.18"
+  },
+  "mixins": [
+    "mixins/mc7569-fix/mixins.json"
+  ],
+  "authors": [
+    "Chloe Dawn"
+  ],
+  "contact": {
+    "homepage": "https://git.io/JMHuq",
+    "sources": "https://git.io/JMHuq",
+    "issues": "https://git.io/JMHuG"
+  }
+}
